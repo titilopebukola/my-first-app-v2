@@ -1,0 +1,41 @@
+/*************
+General styling / Elements
+**************/
+
+/*************
+Images
+**************/
+
+/*************
+Buttons / Links / li / inputs
+**************/
+
+/*************
+Typography
+**************/
+
+/*************
+Layout
+**************/
+footer {
+  background-color: black;
+  margin: 0;
+  height: 150px;
+  opacity: 0.8;
+  color: white;
+  margin-top: 20px;
+}
+footer a {
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-direction: row;
+}
+
+footer p {
+  justify-content: center;
+  display: flex;
+}
+/*************
+Media Queries
+**************/

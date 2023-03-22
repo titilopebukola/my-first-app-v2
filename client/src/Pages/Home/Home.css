@@ -1,0 +1,37 @@
+/*************
+General styling / Elements
+**************/
+
+/*************
+Images
+**************/
+
+/*************
+Buttons / Links / li / inputs
+**************/
+
+/*************
+Typography
+**************/
+
+/*************
+Layout
+**************/
+
+/*************
+Media Queries
+**************/
+.item-list {
+  display: flex;
+}
+
+.featured-products {
+  display: flex;
+  flex-wrap: wrap;
+}
+.featured-product {
+  width: 25%;
+}
+.card-title {
+  font-size: 1rem;
+}

@@ -17,11 +17,12 @@ export default function Burger() {
       {/* <a className="menu-item" href="/contact">
         Contact
       </a> */}
-      {/* <a className="menu-item" href="/basket">
-        Basket
-      </a> */}
+
       <a className="menu-item" href="/feedback">
         Feedback
+      </a>
+      <a className="menu-item" href="/cart">
+        Cart
       </a>
     </Menu>
   );

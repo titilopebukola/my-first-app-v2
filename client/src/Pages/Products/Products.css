@@ -83,6 +83,10 @@ Layout
   height: 350px;
   background-size: cover;
 }
+.card-image:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
 .featured-title {
   font-size: 2rem;
   padding: 50px;
@@ -135,6 +139,7 @@ Layout
   min-height: 100%;
   color: white;
   text-align: center;
+  height: 300px;
 }
 
 .banner-area .banner-img {

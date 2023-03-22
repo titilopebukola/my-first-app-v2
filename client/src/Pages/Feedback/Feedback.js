@@ -19,12 +19,17 @@ export default function Feedback({
           content="This is the main feedback page for lady dresses, summer wear, winter wears, kids collection."
         />
         <link rel="canonical" href="/recommendation" />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
       </Helmet>
       <main>
         <section className="filtered-product">
-          <div className="filter-wrapper">
+          {/* <div className="filter-wrapper">
             <input onChange={handleHairType} value={hairType} placeholder="Filter by Hair type" />
-          </div>
+          </div> */}
           <br></br>
           <div className="feedback-intro">
             <h2>Thank you for visiting our website today!</h2>

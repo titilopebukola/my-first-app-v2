@@ -3,9 +3,7 @@ import "./Reset.css";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-// import SlideshowGallery from "./Components/SlideshowGallery";
 import Success from "./Components/Success";
 import ErrorPage from "./Components/ErrorPage";
 import Header from "./Components/Header/Header";
@@ -33,7 +31,7 @@ function App() {
     price: "",
     color: "",
     description: "",
-    HairType: ",",
+    hairType: "",
   });
 
   useEffect(() => {
@@ -105,7 +103,7 @@ function App() {
       const response = await axios.post("http://localhost:8080/products", form);
       console.log(response.data);
       alert(
-        "TThank you for your valuable feedback/ suggestion, we appreciate you leaving this item suggestion so we can add it"
+        "Thank you for your valuable feedback/ suggestion, we appreciate you leaving this item suggestion so we can add it"
       );
       setForm({
         name: "",

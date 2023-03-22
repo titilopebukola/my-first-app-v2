@@ -9,7 +9,7 @@ const productSchema = new Schema({
   color: String,
   Quantity: String,
   description: String,
-  HairType: String,
+  hairType: String,
 });
 
 const Product = mongoose.model("Product", productSchema);

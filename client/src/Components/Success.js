@@ -2,10 +2,14 @@ import "../App.css";
 
 const Success = () => {
   return (
-    <div className="success-message">
-      <p>Order placed! You will receive an email confirmation.</p>
-      <p>Thank you for shopping with us!.</p>
-    </div>
+    <section>
+      <div className="success-message">
+        <p>Order placed! You will receive an email confirmation.</p>
+      </div>
+      <div className="success-message">
+        <p>Thank you for shopping with us!.</p>
+      </div>
+    </section>
   );
 };
 export default Success;

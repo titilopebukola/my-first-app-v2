@@ -41,7 +41,7 @@ Burger Menu Styles
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: var(--grn4);
+  background: gray;
   border-radius: 2px;
   height: 14% !important;
 }
@@ -73,12 +73,12 @@ Burger Menu Styles
 /* General sidebar styles */
 
 .bm-menu-wrap {
-  background: darkslateblue;
+  background: palevioletred;
   /* border-radius: 0 0 0 140px; */
 }
 
 .bm-menu {
-  background: darkslateblue;
+  background: palevioletred;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
   position: relative;
